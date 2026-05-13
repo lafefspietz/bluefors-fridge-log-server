@@ -1,2 +1,4 @@
-# bluefors-fridge-log-server
-Bluefors Fridge Log Server
+# [science-instrument](https://github.com/LafeLabs/science-instrument)
+
+ - [plots.md](plots.md)
+ - [index.html](index.html)
