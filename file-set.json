@@ -1,4 +1,6 @@
 [
+    "4kplatetemp.json",
+    "50kplatetemp.json",
     "README.md",
     "branch.html",
     "branch.php",
@@ -9,6 +11,7 @@
     "edit-index.html",
     "file-set.json",
     "generate-file-set.php",
+    "get-temperatures-from-url.ipynb",
     "ideal_port2_load.s1p",
     "index.html",
     "jupyter.ipynb",
@@ -19,6 +22,7 @@
     "local-replicator.php",
     "markdown.css",
     "mxctemp.json",
+    "mxctemp2.json",
     "plots.html",
     "plots.md",
     "qrcode.html",
@@ -29,6 +33,7 @@
     "save-file.php",
     "save-png.php",
     "stilltemp.json",
+    "temperature_4k_plate.html",
     "upload-image.php",
     "wall.txt"
 ]
