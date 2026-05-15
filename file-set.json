@@ -34,6 +34,7 @@
     "save-png.php",
     "stilltemp.json",
     "temperature_4k_plate.html",
+    "temperature_50k_plate.html",
     "upload-image.php",
     "wall.txt"
 ]
