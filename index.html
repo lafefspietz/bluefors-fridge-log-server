@@ -3,29 +3,25 @@
 <head>
    <meta charset="utf-8">
    <!--
-local web server
+Fridge Log Server
 -->
 
 <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA4AcAAO/3AADH9wAA7/cAAO/3AADEdwAA7/cAAOw3AADH9wAA7HcAAO/3AADEFwAA7/cAAOAHAAD//wAA" rel="icon" type="image/x-icon">
 
-   <title>local web server</title>    
+   <title>Fridge Log Server</title>    
    <script src = "https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 </head>
 <body>    
-    <H1>bluefors fridge log display</H1>
-    <a href = "http://67206fqe.campus.nist.gov/bluefors-fridge-log-server/temperature_4k_plate.html">http://67206fqe.campus.nist.gov/bluefors-fridge-log-server/temperature_4k_plate.html</a>
+    <H1>bluefors-fridge-log-server</H1>
+    <a href = "readme.html">readme.html</a>
+    <a href = "logfolders/">logfolders/</a>
     <a href = "edit-files.html">edit-files.html</a>
-    <a href = "http://67206fqe.campus.nist.gov/bluefors-fridge-log-server/">http://67206fqe.campus.nist.gov/bluefors-fridge-log-server/</a>    
     <a href = "http://localhost:8888/tree/bluefors-fridge-log-server">http://localhost:8888/tree/bluefors-fridge-log-server</a>
     <a href = "mxctemp.json">mxctemp.json</a>
     <a href = "mxctemp2.json">mxctemp2.json</a>
     <a href = "stilltemp.json">stilltemp.json</a>
     <a href = "4kplatetemp.json">4kplatetemp.json</a>
     <a href = "50kplatetemp.json">50kplatetemp.json</a>
-    <a href="http://localhost:8888">http://localhost:8888</a>
-    <a href="generate-file-set.php">generate-file-set.php</a>
-    <a href = "delete-files.html">delete-files.html</a>
-
     <div id = "qrcode"></div>
     <H1>Branches</H1>
     <a href="branch.html">branch.html</a>
@@ -119,18 +115,7 @@ img{
     top:5em;
     left:5em;
 }
-.CARDBOARD-SIGN A{
-    COLOR:black;
-}
-.CARDBOARD-SIGN{
-    MAX-WIDTH:90%;   
-    MARGIN:AUTO;
-    MARGIN-TOP:2EM;
-    border-top:solid;
-    MARGIN-BOTTOM:1EM;
-    OVERFLOW:SCROLL;
-    FONT-SIZE:1EM;
-}
+
 .timestampdata{
     DISPLAY:NONE;
 }
@@ -169,7 +154,7 @@ fontsize = 12;
 //globalurl = "http://www.trashrobot.org/qrcode.html";
 globalurl = window.location.href;
 qrcode = new QRCode(document.getElementById("qrcode"), {
-	text: globalurl,
+	text: "https://github.com/lafefspietz/bluefors-fridge-log-server",
 	width: codesquaresize,
 	height: codesquaresize,
 	colorDark : "#000000",
