@@ -95,7 +95,7 @@ httpc.onreadystatechange = function() {
 httpc.open("GET", "list-files.php?directoryname=plots", true);
 httpc.send();
 
-reverseorder = false;
+reverseorder = true;
 
 function loadplots(){
     document.getElementById("image-feed").innerHTML = "";
